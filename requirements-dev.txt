@@ -1,0 +1,18 @@
+# 开发依赖
+-r requirements.txt
+
+# 测试工具
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# 代码格式化和检查
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.0.0
+
+# Git钩子
+pre-commit>=3.0.0
+
+# 可选：代码覆盖率
+coverage>=7.0.0
+pytest-cov>=4.0.0 
